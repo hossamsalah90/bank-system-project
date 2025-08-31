@@ -22,6 +22,18 @@ class validation
     {return false;}
     return true;
     }
+    static bool validbalance(double balance){
+    if(balance <1500){
+        return false;
+    }
+    return true;
+    }
+    static bool valdisalary(double salary){
+    if (salary<5000){
+        return false;
+    }
+    return true;
+    }
 };
 
 
